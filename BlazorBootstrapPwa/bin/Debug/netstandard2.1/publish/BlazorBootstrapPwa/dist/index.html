@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BlazorPwa</title>
+        <meta name="viewport" content="initial-scale=1">
+        <meta name="description" content="Blazor Progressive Web App">
+        <meta name="theme-color" content="#343a40">
+        <link href="manifest.json" rel="manifest">
+        <link rel="apple-touch-icon" href="icon-192.png">
+        <link href="css/style.css" rel="stylesheet" />
+        <script src="_framework/blazor.webassembly.js"></script>
+        <script>navigator.serviceWorker.register('./serviceworker.js');</script>
+    </head>
+    <body>
+        <div>
+            <h1>Just a moment</h1>
+            <hr>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </body>
+</html>

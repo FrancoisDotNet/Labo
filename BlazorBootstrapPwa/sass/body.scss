@@ -1,0 +1,14 @@
+body {
+    @extend .bg-dark;
+    @extend .container;
+}
+
+body > div {
+    @extend .alert;
+    @extend .alert-primary;
+    @extend .modal-dialog;
+}
+
+body > div > div {
+    @extend .spinner-grow;
+}
